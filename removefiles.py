@@ -9,7 +9,7 @@ def main():
 	
 	deleted_folders_count = 0
 	deleted_files_count = 0
-	path="C:/Users/aryam/Pictures/Screenshots"
+	path="C:/Users/aryam/OneDrive/Desktop/Coding"
 	days = 30
 	seconds = time.time() - (days * 24 * 60 * 60)
 	if os.path.exists(path):
